@@ -1,3 +1,8 @@
+.js-loading *, .js-loading *:before, .js-loading *:after {
+  -webkit-animation-play-state: paused !important;
+          animation-play-state: paused !important;
+}
+
 header {
   -webkit-box-align: center;
       -ms-flex-align: center;
